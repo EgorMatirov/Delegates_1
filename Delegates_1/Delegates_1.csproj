@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRequest.cs" />
+    <Compile Include="IRequestable.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderRequest.cs" />
     <Compile Include="Transaction.cs" />
-    <Compile Include="TransactionProcessor.cs" />
+    <Compile Include="RequestProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransactionRequest.cs" />
   </ItemGroup>
